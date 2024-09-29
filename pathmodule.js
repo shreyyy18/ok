@@ -1,0 +1,7 @@
+const path=require('path')
+const { constrainedMemory } = require('process')
+console.log(path.sep)
+const pathjoins=path.join('/content','subfolder','test.txt')
+console.log(pathjoins)
+console.log(path.basename(pathjoins))
+console.log(path.resolve(__dirname,'content','subfolder','test.txt'))
